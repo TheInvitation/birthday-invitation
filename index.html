@@ -1,1 +1,403 @@
+<!DOCTYPE html>
 
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-high": "#dee8ff", "secondary": "#805521", "secondary-fixed": "#ffddbb", "on-background": "#111c2d", "inverse-surface": "#263143", "on-tertiary-fixed": "#3d0700", "on-tertiary-container": "#d95d3f", "primary-container": "#131a33", "background": "#f9f9ff", "secondary-container": "#fec485", "on-secondary": "#ffffff", "surface-dim": "#cfdaf2", "tertiary-fixed": "#ffdad2", "surface-container-lowest": "#ffffff", "outline": "#76767e", "on-tertiary": "#ffffff", "secondary-fixed-dim": "#f5bc7e", "primary-fixed": "#dbe1ff", "on-secondary-fixed": "#2b1700", "primary-fixed-dim": "#bec5e5", "on-secondary-fixed-variant": "#653e0b", "surface": "#f9f9ff", "on-primary": "#ffffff", "surface-bright": "#f9f9ff", "surface-container-highest": "#d8e3fb", "error-container": "#ffdad6", "inverse-primary": "#bec5e5", "surface-variant": "#d8e3fb", "on-error": "#ffffff", "on-primary-fixed-variant": "#3e4660", "surface-container-low": "#f0f3ff", "surface-container": "#e7eeff", "on-tertiary-fixed-variant": "#872108", "on-surface": "#111c2d", "tertiary": "#000000", "outline-variant": "#c6c6ce", "tertiary-container": "#3d0700", "on-surface-variant": "#45464d", "on-error-container": "#93000a", "on-primary-container": "#7b83a0", "primary": "#000000", "on-primary-fixed": "#131a33", "tertiary-fixed-dim": "#ffb4a3", "error": "#ba1a1a", "inverse-on-surface": "#ecf1ff", "on-secondary-container": "#794f1b", "surface-tint": "#565d79" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "gutter-desktop": "2rem", "space-2xl": "3.5rem", "margin-desktop": "3rem", "margin": "1.25rem", "space-xs": "0.25rem", "gutter-tablet": "1.5rem", "space-lg": "1.5rem", "gutter": "1rem", "margin-tablet": "2rem", "space-md": "1rem", "space-xl": "2.25rem" }, "fontFamily": { "headline-lg": ["Playfair Display"], "headline-lg-mobile": ["Playfair Display"], "title-sm": ["Plus Jakarta Sans"], "headline-xl": ["Playfair Display"], "headline-sm": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "600" }], "title-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-xl": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "500" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500" }], "title-md": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Celebration Crest" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UeCyiObSj7q_6DWvHm56WmE1eWNAG_XJHuyTpePdBbzqTDRQ74kk7jimWmi0T4yx6JA4YABPAD1_5g_dcDGr7SMi_dGHGM3eL4VmvaW0Qkj7ogUb7hjRlhMkvk6EQG0of4wqx9I0bliGUs9t-7YVNa4BGEyxBakaLnYOjEwcaDU2QfueBt3i1Q8KbPh7y10I-PDcLLG8Dr3kzCEBs4bOz3u8CusgfXJsOuQ7pF5_Urp5QtFJFYRFFJRA"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Camille's 30th</span><span class="font-label-sm text-label-sm tracking-widest uppercase text-secondary">Invitation</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Toggle Soirée Audio" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">volume_up</span></button><button aria-label="Share Invitation" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">ios_share</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-24 flex flex-col"><div class="flex flex-col w-full max-w-[440px] mx-auto px-margin space-y-space-xl pb-12">
+<!-- 1. Hero Invitation Card -->
+<section class="relative w-full rounded-lg bg-surface-container-low shadow-[0_16px_40px_rgba(128,85,33,0.08)] overflow-hidden p-space-md flex flex-col items-center text-center">
+<!-- Ambient Gilt Aura -->
+<div class="absolute -top-16 -right-16 w-48 h-48 bg-secondary-fixed/40 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-20 -left-16 w-52 h-52 bg-secondary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Festive Badge -->
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed/70 text-secondary mb-space-sm shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">auto_awesome</span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase">You are cordially invited</span>
+</div>
+<!-- Milestone Headline -->
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-space-xs">
+      Camille is turning <span class="text-secondary italic">30</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[280px] mb-space-md">
+      A Golden Hour Rooftop Soirée &amp; Cocktail Celebration
+    </p>
+<!-- Visual Anchor Image Container -->
+<div class="relative w-full aspect-[4/3] rounded-DEFAULT overflow-hidden shadow-md group">
+<img alt="Champagne flutes toasting under ambient golden lights" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALnXgvsdjLAqBIyKfddzvtJyByyOPeLtELWjg-KJsrq36314uraGP331RvJtehUG38rgyjfJ4e9ojcTB6PfSjcbvyorMtRCYQUYfks0N8RGX9xIycrQS9sDx5nJOomd58IR3rQJzVY14vufRLghrbRyV4JHIPqiiN5uxCZ9RourTwcOGEX1j4Tpho9mVaOAEfhdp_3ZTS8MOHBqippwNMt0PwhTDmuL6e1rmTkY-N8mSktqGV2rXbQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/10 to-transparent"></div>
+<!-- Date Chip Overlay -->
+<div class="absolute bottom-space-sm left-space-sm right-space-sm flex items-center justify-between">
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface/90 backdrop-blur-md text-on-surface shadow-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">calendar_today</span>
+<span class="font-label-md text-label-md">Saturday, Oct 18 • 6:30 PM</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">celebration</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Live Countdown Timer -->
+<section class="w-full bg-surface-container rounded-lg p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-sm px-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">timer</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">The Countdown</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">New York, NY</span>
+</div>
+<div class="grid grid-cols-4 gap-2 text-center">
+<div class="bg-surface-container-lowest rounded-DEFAULT py-2.5 px-1 shadow-sm">
+<span class="block font-headline-md text-headline-md text-on-surface leading-none mb-1" id="timer-days">24</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Days</span>
+</div>
+<div class="bg-surface-container-lowest rounded-DEFAULT py-2.5 px-1 shadow-sm">
+<span class="block font-headline-md text-headline-md text-on-surface leading-none mb-1" id="timer-hours">08</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Hours</span>
+</div>
+<div class="bg-surface-container-lowest rounded-DEFAULT py-2.5 px-1 shadow-sm">
+<span class="block font-headline-md text-headline-md text-on-surface leading-none mb-1" id="timer-mins">45</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Mins</span>
+</div>
+<div class="bg-surface-container-lowest rounded-DEFAULT py-2.5 px-1 shadow-sm">
+<span class="block font-headline-md text-headline-md text-secondary leading-none mb-1" id="timer-secs">12</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Secs</span>
+</div>
+</div>
+</section>
+<!-- 3. Event Quick Details Grid -->
+<section class="w-full space-y-space-sm">
+<!-- Date & Time Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">event</span>
+</div>
+<div>
+<h2 class="font-title-sm text-title-sm text-on-surface">When &amp; Timing</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Saturday, October 18, 2025</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface">6:30 PM – Late</span>
+</div>
+<!-- Action: Add to Calendar -->
+<div class="flex items-center gap-2 pt-2">
+<button class="flex-1 py-2 px-3 rounded-full bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-secondary-fixed transition-colors" id="btn-calendar" onclick="handleAddToCalendar()">
+<span class="material-symbols-outlined text-[16px] text-secondary">add_circle</span>
+<span>Add to Apple / Google</span>
+</button>
+</div>
+</div>
+<!-- Venue Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">apartment</span>
+</div>
+<div>
+<h2 class="font-title-sm text-title-sm text-on-surface">The Glasshouse Penthouse</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">452 Hudson St, New York, NY</p>
+</div>
+</div>
+</div>
+<div class="w-full h-28 rounded-DEFAULT overflow-hidden relative" data-alt="Stylized map card preview showing Manhattan skyline with golden location pin over Hudson Street rooftop" data-location="452 Hudson St, New York, NY" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAWeQTBkxwX82XRHfB4KBZF2IoJJ2bP7buT7KQ8Oa1_T2UvHmN-AHLmDrDwuV9wsr_yZ_mscL4CnRUo2LlA8anMvNSbuzcYtATg6SDnthL7c6x9gA9eirbyDG4Cnouuwyj2C2VltMwekvTKdgvV5EG9HXUdhWI58O_INtwyk1vImb1cBm3prdjarwcID4zenNBW8JeSG2GPnrOH9Gc4nu18gJpRkS9snBGQ2wmadP6-ID-q998Ntcwh')">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent flex items-end p-2.5">
+<span class="font-label-sm text-label-sm text-on-primary bg-primary/70 backdrop-blur-sm px-2 py-0.5 rounded-full">Penthouse 14 • Terrace Access</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">local_taxi</span>
+<span>Valet &amp; Uber drop-off available</span>
+</p>
+<button class="px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md flex items-center gap-1" onclick="window.open('https://maps.google.com?q=452+Hudson+St+New+York+NY', '_blank')">
+<span>Open Maps</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</button>
+</div>
+</div>
+<!-- Dress Code Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm">
+<div class="flex items-center gap-space-sm mb-space-xs">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">styler</span>
+</div>
+<div>
+<h2 class="font-title-sm text-title-sm text-on-surface">Dress Code</h2>
+<p class="font-body-sm text-body-sm text-secondary font-medium">Cocktail &amp; Golden Chic</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant pl-12">
+        Think shimmering metallics, warm champagne, sleek blacks, and celestial evening cocktail silhouettes.
+      </p>
+<!-- Palette Swatches -->
+<div class="flex items-center gap-2 pl-12 mt-space-sm">
+<div class="w-6 h-6 rounded-full bg-[#E0A96D] shadow-inner" title="Champagne Gold"></div>
+<div class="w-6 h-6 rounded-full bg-[#131A33] shadow-inner" title="Midnight Velvet"></div>
+<div class="w-6 h-6 rounded-full bg-[#FEC485] shadow-inner" title="Sunset Amber"></div>
+<div class="w-6 h-6 rounded-full bg-[#F0F3FF] shadow-inner" title="Frosted Pearl"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1">Color Palette</span>
+</div>
+</div>
+</section>
+<!-- 4. Evening Itinerary / Timeline -->
+<section class="w-full bg-surface-container-low rounded-lg p-space-md shadow-sm">
+<div class="flex items-center gap-2 mb-space-md">
+<span class="material-symbols-outlined text-secondary text-[22px]">schedule</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">The Evening Timeline</h2>
+</div>
+<div class="relative pl-6 space-y-6 before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-[2px] before:bg-secondary-fixed-dim">
+<!-- Timeline Item 1 -->
+<div class="relative group">
+<div class="absolute -left-[27px] top-1 w-3.5 h-3.5 rounded-full bg-secondary shadow-[0_0_8px_rgba(128,85,33,0.5)] ring-4 ring-surface-container-low"></div>
+<div class="flex items-baseline justify-between mb-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">6:30 PM</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface">Terrace Open</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface">Sunset Welcome Cocktails &amp; Oysters</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live jazz acoustics, artisanal spritzes, and fresh coastal hors d'oeuvres.</p>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative group">
+<div class="absolute -left-[27px] top-1 w-3.5 h-3.5 rounded-full bg-secondary shadow-[0_0_8px_rgba(128,85,33,0.5)] ring-4 ring-surface-container-low"></div>
+<div class="flex items-baseline justify-between mb-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">8:00 PM</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-bold">Golden Hour</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface">Golden Hour Toast &amp; Small Bites</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Host remarks, chef's seasonal stations, and bespoke vintage wines.</p>
+</div>
+<!-- Timeline Item 3 -->
+<div class="relative group">
+<div class="absolute -left-[27px] top-1 w-3.5 h-3.5 rounded-full bg-secondary shadow-[0_0_8px_rgba(128,85,33,0.5)] ring-4 ring-surface-container-low"></div>
+<div class="flex items-baseline justify-between mb-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">9:30 PM</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface">Main Event</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface">Cake Cutting &amp; Champagne Tower</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Milestone candles, sparkling cascade, and dessert bar reveal.</p>
+</div>
+<!-- Timeline Item 4 -->
+<div class="relative group">
+<div class="absolute -left-[27px] top-1 w-3.5 h-3.5 rounded-full bg-secondary shadow-[0_0_8px_rgba(128,85,33,0.5)] ring-4 ring-surface-container-low"></div>
+<div class="flex items-baseline justify-between mb-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">10:00 PM – Late</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface">Nightfall</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface">Live DJ &amp; Dancing Under the Stars</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Late-night rooftop grooves, specialty espresso martinis, and treats.</p>
+</div>
+</div>
+</section>
+<!-- 5. Interactive RSVP Form Section -->
+<section class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-md space-y-space-md" id="rsvp-section">
+<div class="text-center space-y-1">
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-secondary font-semibold">Kind Attention</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Will You Be Joining Us?</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Please kindly respond by <strong class="text-on-surface">October 1st, 2025</strong></p>
+</div>
+<!-- Attendance Selection Pills -->
+<div class="grid grid-cols-2 gap-2">
+<button class="py-3 px-2 rounded-DEFAULT bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all shadow-sm" id="attend-accept" onclick="selectAttendance(true)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span>Joyfully Accept</span>
+</button>
+<button class="py-3 px-2 rounded-DEFAULT bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all" id="attend-decline" onclick="selectAttendance(false)" type="button">
+<span class="material-symbols-outlined text-[18px]">sentiment_dissatisfied</span>
+<span>Regretfully Decline</span>
+</button>
+</div>
+<form class="space-y-space-sm" id="form-rsvp" onsubmit="handleRsvpSubmit(event)">
+<!-- Full Name -->
+<div class="space-y-1">
+<label class="block font-label-md text-label-md text-on-surface" for="guest-name">Your Full Name</label>
+<div class="relative">
+<input class="w-full h-12 px-3.5 rounded-DEFAULT bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:outline-none focus:bg-surface-container-high transition-colors" id="guest-name" placeholder="e.g. Julianne Sterling" required="" type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-on-surface-variant">person</span>
+</div>
+</div>
+<!-- Email / Phone -->
+<div class="space-y-1">
+<label class="block font-label-md text-label-md text-on-surface" for="guest-contact">Email Address or Phone</label>
+<div class="relative">
+<input class="w-full h-12 px-3.5 rounded-DEFAULT bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:outline-none focus:bg-surface-container-high transition-colors" id="guest-contact" placeholder="julianne@example.com" required="" type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-on-surface-variant">mail</span>
+</div>
+</div>
+<!-- Guest Count / Plus One -->
+<div class="space-y-1">
+<label class="block font-label-md text-label-md text-on-surface">Party Size</label>
+<div class="flex items-center gap-2">
+<button class="flex-1 py-2 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg transition-colors" id="party-1" onclick="setPartySize(1)" type="button">Just Me (1)</button>
+<button class="flex-1 py-2 rounded-DEFAULT bg-surface-container-low text-on-surface font-label-lg text-label-lg transition-colors" id="party-2" onclick="setPartySize(2)" type="button">Bringing a +1 (2)</button>
+</div>
+</div>
+<!-- Dietary Preferences -->
+<div class="space-y-1.5 pt-1">
+<label class="block font-label-md text-label-md text-on-surface">Dietary Accommodations</label>
+<div class="flex flex-wrap gap-1.5" id="diet-chips">
+<button class="px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors" onclick="toggleChip(this)" type="button">Vegetarian</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors" onclick="toggleChip(this)" type="button">Vegan</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors" onclick="toggleChip(this)" type="button">Gluten-Free</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors" onclick="toggleChip(this)" type="button">No Seafood</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors" onclick="toggleChip(this)" type="button">None</button>
+</div>
+</div>
+<!-- Song Request -->
+<div class="space-y-1 pt-1">
+<label class="block font-label-md text-label-md text-on-surface" for="song-request">Song Request for DJ</label>
+<div class="relative">
+<input class="w-full h-12 px-3.5 rounded-DEFAULT bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 font-body-md text-body-md focus:outline-none focus:bg-surface-container-high transition-colors" id="song-request" placeholder="What song gets you on the dancefloor?" type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-secondary">music_note</span>
+</div>
+</div>
+<!-- Submit Button with Shimmer -->
+<div class="pt-2">
+<button class="relative w-full h-14 rounded-full bg-primary text-on-primary font-label-lg text-label-lg overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.25)] flex items-center justify-center gap-2 group transition-transform active:scale-[0.98]" id="btn-submit-rsvp" type="submit">
+<div class="absolute inset-0 bg-gradient-to-r from-transparent via-secondary-container/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">mark_email_read</span>
+<span id="submit-text">Confirm RSVP</span>
+</button>
+</div>
+</form>
+<!-- Success Confirmation State (Hidden by default) -->
+<div class="hidden p-space-md rounded-DEFAULT bg-secondary-fixed/50 text-on-secondary-fixed text-center space-y-1" id="rsvp-success-banner">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary mx-auto flex items-center justify-center mb-1">
+<span class="material-symbols-outlined text-[24px]">check</span>
+</div>
+<h3 class="font-title-sm text-title-sm">RSVP Received with Love!</h3>
+<p class="font-body-sm text-body-sm">We can't wait to toast with you on October 18th. A confirmation has been noted.</p>
+</div>
+</section>
+<!-- 6. Host Note & FAQ Accordion -->
+<section class="w-full space-y-space-md">
+<!-- Heartfelt Host Note -->
+<div class="relative w-full bg-surface-container-low rounded-lg p-space-md shadow-sm text-center overflow-hidden">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed mx-auto mb-space-sm flex items-center justify-center text-on-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[24px]">format_quote</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface mb-2">
+        "I can't wait to celebrate another milestone year with my favorite people under the city lights."
+      </p>
+<span class="font-label-md text-label-md tracking-wider text-secondary font-semibold uppercase">— Camille xoxo</span>
+</div>
+<!-- FAQ Accordion -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm space-y-3">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-secondary text-[20px]">help</span>
+<h3 class="font-title-sm text-title-sm text-on-surface">Frequently Asked Questions</h3>
+</div>
+<!-- FAQ 1 -->
+<details class="group py-2 [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
+<summary class="flex items-center justify-between font-label-lg text-label-lg text-on-surface">
+<span>Are gifts expected?</span>
+<span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="mt-2 font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-1">
+          Your presence and energy on the dance floor is truly the greatest gift! If you wish to mark the occasion, a small contribution to Camille's 30th Milestone Travel &amp; Art Fund is warmly appreciated.
+        </p>
+</details>
+<div class="w-full h-px bg-surface-container"></div>
+<!-- FAQ 2 -->
+<details class="group py-2 [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
+<summary class="flex items-center justify-between font-label-lg text-label-lg text-on-surface">
+<span>Parking &amp; Transportation details?</span>
+<span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="mt-2 font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-1">
+          Complimentary valet is stationed right outside 452 Hudson Street. We also strongly recommend rideshare (Uber/Lyft) so you can freely indulge in our open cocktail bar and midnight toasts!
+        </p>
+</details>
+<div class="w-full h-px bg-surface-container"></div>
+<!-- FAQ 3 -->
+<details class="group py-2 [&amp;_summary::-webkit-details-marker]:hidden cursor-pointer">
+<summary class="flex items-center justify-between font-label-lg text-label-lg text-on-surface">
+<span>Can I bring a Plus One?</span>
+<span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="mt-2 font-body-sm text-body-sm text-on-surface-variant leading-relaxed pl-1">
+          Due to rooftop occupancy capacity, invites are intended for the named guests on the invitation or those noted with a +1 option in the RSVP form. Thank you for understanding!
+        </p>
+</details>
+</div>
+</section>
+</div>
+<script>
+  // Simple countdown dynamic tick
+  (function initCountdown() {
+    let seconds = 12;
+    setInterval(() => {
+      seconds = (seconds <= 0) ? 59 : seconds - 1;
+      const el = document.getElementById('timer-secs');
+      if (el) el.textContent = seconds < 10 ? '0' + seconds : seconds;
+    }, 1000);
+  })();
+
+  // Attendance Toggle
+  let isAttending = true;
+  function selectAttendance(accepting) {
+    isAttending = accepting;
+    const btnAccept = document.getElementById('attend-accept');
+    const btnDecline = document.getElementById('attend-decline');
+    const submitText = document.getElementById('submit-text');
+
+    if (accepting) {
+      btnAccept.className = 'py-3 px-2 rounded-DEFAULT bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all shadow-sm';
+      btnDecline.className = 'py-3 px-2 rounded-DEFAULT bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all';
+      submitText.textContent = 'Confirm RSVP';
+    } else {
+      btnDecline.className = 'py-3 px-2 rounded-DEFAULT bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all shadow-sm';
+      btnAccept.className = 'py-3 px-2 rounded-DEFAULT bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 transition-all';
+      submitText.textContent = 'Send Regrets';
+    }
+  }
+
+  // Party Size Selection
+  let partyCount = 1;
+  function setPartySize(size) {
+    partyCount = size;
+    const btn1 = document.getElementById('party-1');
+    const btn2 = document.getElementById('party-2');
+    if (size === 1) {
+      btn1.className = 'flex-1 py-2 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg transition-colors';
+      btn2.className = 'flex-1 py-2 rounded-DEFAULT bg-surface-container-low text-on-surface font-label-lg text-label-lg transition-colors';
+    } else {
+      btn2.className = 'flex-1 py-2 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg transition-colors';
+      btn1.className = 'flex-1 py-2 rounded-DEFAULT bg-surface-container-low text-on-surface font-label-lg text-label-lg transition-colors';
+    }
+  }
+
+  // Chip Toggle
+  function toggleChip(btn) {
+    const isSelected = btn.getAttribute('data-selected') === 'true';
+    if (isSelected) {
+      btn.setAttribute('data-selected', 'false');
+      btn.className = 'px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm hover:bg-secondary-fixed transition-colors';
+    } else {
+      btn.setAttribute('data-selected', 'true');
+      btn.className = 'px-3 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-sm transition-colors';
+    }
+  }
+
+  // RSVP Form Handler
+  function handleRsvpSubmit(e) {
+    e.preventDefault();
+    const form = document.getElementById('form-rsvp');
+    const successBanner = document.getElementById('rsvp-success-banner');
+    
+    // Smooth transition
+    form.style.display = 'none';
+    successBanner.classList.remove('hidden');
+  }
+
+  // Calendar Handler
+  function handleAddToCalendar() {
+    const title = encodeURIComponent("Camille's 30th Golden Hour Soirée");
+    const details = encodeURIComponent("A Golden Hour Rooftop Soirée & Cocktail Celebration at The Glasshouse Penthouse.");
+    const location = encodeURIComponent("452 Hudson St, New York, NY");
+    const startDate = "20251018T223000Z";
+    const endDate = "20251019T040000Z";
+    const googleCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDate}/${endDate}&details=${details}&location=${location}`;
+    window.open(googleCalUrl, '_blank');
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(17,28,45,0.06)]" data-active-classes="text-secondary"><div class="px-margin py-space-sm flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] transition-colors text-secondary" data-path="invitation" href="#"><span class="material-symbols-outlined text-[20px]">mail</span><span class="font-label-sm text-label-sm">Invite</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="itinerary" href="#"><span class="material-symbols-outlined text-[20px]">schedule</span><span class="font-label-sm text-label-sm">Timing</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] text-on-surface-variant transition-colors" data-path="details" href="#"><span class="material-symbols-outlined text-[20px]">location_on</span><span class="font-label-sm text-label-sm">Place</span></a></div><div class="flex items-center gap-space-sm flex-1 justify-end"><div class="hidden sm:flex flex-col items-end mr-space-xs"><span class="font-label-sm text-label-sm text-secondary uppercase">Starts In</span><span class="font-headline-sm text-headline-sm text-on-surface leading-none">18h 40m</span></div><a class="min-h-[44px] px-space-lg rounded-full bg-primary text-on-primary flex items-center justify-center gap-space-xs font-label-lg text-label-lg shadow-[0_4px_16px_rgba(0,0,0,0.2)] hover:bg-secondary transition-all" data-path="rsvp" href="#"><span class="material-symbols-outlined text-[18px]">celebration</span><span>RSVP Now</span></a></div></div></nav></body></html>
